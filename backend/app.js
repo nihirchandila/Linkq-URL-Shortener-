@@ -12,11 +12,14 @@ app.use(express.json())
 dotenv.config()
 app.use(cors())
 const PORT = process.env.PORT || 3001
-app.use('/api/url',Router)
 // app.use(cors({
 //   origin: process.env.URL,
 //   methods: 'GET,POST,PUT,DELETE'
 // }));
+
+app.use("/", Router)
+
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -36,7 +39,6 @@ const connect = ()=>{
     })
 }
 
-app.use("/", Router)
 
 app.listen(PORT,()=>{
     console.log("server started at port "+PORT);

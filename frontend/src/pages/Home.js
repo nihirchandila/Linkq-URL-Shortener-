@@ -98,7 +98,7 @@ export default function Home() {
       <div className="circle"></div>
       <div className="header">
         <div className="container">
-          <img src="/logo.png"></img>
+          <img src="/images/logo.png"></img>
         </div>
       </div>
       <div className="content">
@@ -170,7 +170,7 @@ export default function Home() {
       </div>
       <div className="credits">
         <a href="https://nihirchandila.in" target="_blank">
-          <img src="/coding.png"></img>
+          <img src="/images/coding.png"></img>
         </a>
         <a href="https://nihirchandila.in" target="_blank">
           <p>Nihir</p>

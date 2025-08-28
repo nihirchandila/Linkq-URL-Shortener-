@@ -8,4 +8,11 @@ Site URL -
 
 cd frontend
 npm install
-npm run build or write npm run build in the root folder
+2. Create a .env file in the root directory and add the following:
+MONGO_URI → Connection string for your MongoDB database
+URL → Base URL for your backend API(http://localhost:3001/)
+PORT → Port on which the server will run(3001)
+
+3. Run the backend server in the backend folder:
+npm run build in the root folder
+npm start
